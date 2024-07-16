@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Alura Geek</title>
+</head>
+<body>
+   <div class="header">
+        <img src="./img/icon-pastel.png" alt="">
+        <h1>TU PASTELERI<span>APP</span></h1>
+
+   </div>
+        <section class="main-container">
+          <div class="new-card" id="new-card" >
+                    <h2>MIS PRODUCTOS</h2>  
+                    <div class="cards-container" data-lista>
+                    </div>
+          </div>
+
+            <form class="main-form" data-formulario>
+                <h2>AGREGAR PRODUCTOS</h2> 
+                <div class="form-control">
+                    <label for="name" class="name">Nombre</label>
+                    <input type="text" id="name" placeholder="  nombre..." data-titulo>
+                    
+                    <label for="price" class="price">Precio</label>
+                    <input type="text" id="price" placeholder="  precio..." data-precio>
+
+                    <label for="image" class="image">Link de la imagen</label>
+                    <input type="text" id="image" placeholder="  imagen..." data-imagen>
+                    
+                    <div class="buttons">
+                        <button type="submit" class="submit">Enviar</button>
+                        <button type="reset" class="reset">Limpiar</button>
+                    </div>
+                </div>
+                
+            </form>  
+
+        </section>
+   
+   
+   <footer>
+        <div class="footer">
+            <div class="logo">
+                <a href="https://github.com/Julian-Rozo">Julián Rozo</a>
+            </div>
+            <p class="attribution">
+                Challenge by <a href="https://www.oracle.com/co/education/oracle-next-education/" target="_blank">ONE - Oracle Next Education</a>. Coded by <a href="https://github.com/Julian-Rozo" target="_blank">Julian-Rozo</a>.
+              </p>
+   
+            <div class="social-links">
+                <a href="https://www.facebook.com/julian.rozo.184/?locale=es_LA" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://www.instagram.com/sjrozo_980?igsh=MWdncmNrY3Fic2d4MQ==" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/rozo-julian/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Julian-Rozo" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div> 
+        </div>
+   </footer>
+    <script src="./js/mostrarElementos.js" type="module"></script>
+    <script src="./js/crearElemento.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "elementos": [
+    {
+      "id": "1",
+      "titulo": "Postre de chocolate",
+      "precio": "8.500",
+      "imagen": "https://images.pexels.com/photos/2373520/pexels-photo-2373520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "2",
+      "titulo": "Tarta de queso",
+      "precio": "7.500",
+      "imagen": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "3",
+      "titulo": "Pastel blanco",
+      "precio": "7.000",
+      "imagen": "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "4",
+      "titulo": "Mega malteada",
+      "precio": "15.000",
+      "imagen": "https://images.pexels.com/photos/2638026/pexels-photo-2638026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "5",
+      "titulo": "CheeseCake frutos rojos",
+      "precio": "90.000",
+      "imagen": "https://images.pexels.com/photos/2693447/pexels-photo-2693447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "6",
+      "titulo": "Cup-Cakes",
+      "precio": "6.500",
+      "imagen": "https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1e"
+    },
+    {
+      "id": "7",
+      "titulo": "PanCakes",
+      "precio": "12.500",
+      "imagen": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "8",
+      "titulo": "Alfajor",
+      "precio": "5.000",
+      "imagen": "https://images.pexels.com/photos/940872/pexels-photo-940872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "2f3d",
+      "titulo": "M&M'S",
+      "precio": "50.000",
+      "imagen": "https://images.pexels.com/photos/33239/halloween-candy-chocolates-nuts-sweet.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}

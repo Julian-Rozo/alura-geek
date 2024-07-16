@@ -1,0 +1,195 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --light-brown: #2E2511;
+    --dark-yellow: #FCBB5B;
+    --light-orange: #FC8B5B;
+    --dark-orange: #F26E57;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+  body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .header  {
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    background-color: var(--light-brown);
+    width: 100%;
+    height: 100px;
+  }
+
+  .header img {
+    color: var(--white);
+  }
+  .header h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
+
+  .header h1 span {
+    color: var(--dark-yellow);
+  }
+
+  .main-container   {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .new-card {
+    background-color: var(--light-orange);
+    width: 100%;
+    height: 55em;
+    border-radius: 20px 20px 0 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+   
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 10px 20px;
+  }
+
+  .new-card h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .new-card .product-info div p:nth-child(1){
+    color: var(--light-brown);
+  }
+
+  .product-card {
+    background-color: #FFFFFF;
+    width: 240px;
+    border: 4px solid #2E2511;
+    border-radius: 20px;
+  }
+
+  .product-card img {
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    border: 2px solid #2E2511;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+  }
+  .product-info figure {
+    margin: 0;
+  }
+  .product-info figure img {
+    width: 25px;
+    height: 25px;
+  }
+  .product-info div p:nth-child(1) {
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 0;
+    color: var(--light-brown);
+    margin-bottom: 4px;
+  }
+  .product-info div p:nth-child(2) {
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--light-brown);
+  }
+
+  .main-form {
+        background-color: var(--dark-yellow);
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+  .main-form H2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .form-control label {
+    margin-top: 5px;
+    font-size: var(--lg);
+    font-weight: bold;
+    color: var(--light-brown);
+  }
+
+  .form-control input {
+    margin-top: 6px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid var(--light-brown);
+  }
+
+  .form-control .buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+  }
+
+  .form-control .buttons .submit, .reset {
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 2px solid var(--light-brown);
+    cursor: pointer;
+  }
+
+  .form-control .buttons .submit:hover, .reset:hover {
+    background-color: var(--light-brown);
+    transition: all 0.3s ease;
+    color: var(--white);
+  }
+
+.footer  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--light-brown);
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    position: absolute;
+    color: var(--white);
+}
+
+footer a, footer .social-links a {
+    color: var(--light-black);
+    text-decoration: none;
+}
+
+footer .attribution {
+    align-items: center;
+    color: var(--white);
+}
+
+.social-links i {
+    padding: 4px;
+    color: var(--white);
+}
